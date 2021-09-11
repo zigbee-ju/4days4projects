@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c5405f;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.random{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hex {
+    background-color: transparent;
+    border: 0px;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}        
+#color{
+    width: 170px;
+    height: 50px;
+    padding: 6px;
+    margin-top: 15px;
+}
